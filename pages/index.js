@@ -18,14 +18,68 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="" className={styles.card}>
             <h3>Mobile Development: Project &rarr;</h3>
             <p>1</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="" className={styles.card}>
             <h3>Project 2 &rarr;</h3>
-            <p>project details go here too!</p>
+            <p>project!</p>
+          </a>
+
+          <a
+            href="https://github.com/vercel/next.js/tree/canary/examples"
+            className={styles.card}
+          >
+            <h3> Project 3 &rarr;</h3>
+            <p>Project details go here </p>
+          </a>
+
+          <a
+            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h3>Project 4 &rarr;</h3>
+            <p>
+              Project details here
+            </p>
+          </a>
+          <a href="" className={styles.card}>
+            <h3>Mobile Development: Project &rarr;</h3>
+            <p>1</p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h3>Project 2 &rarr;</h3>
+            <p>project!</p>
+          </a>
+
+          <a
+            href="https://github.com/vercel/next.js/tree/canary/examples"
+            className={styles.card}
+          >
+            <h3> Project 3 &rarr;</h3>
+            <p>Project details go here </p>
+          </a>
+
+          <a
+            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h3>Project 4 &rarr;</h3>
+            <p>
+              Project details here
+            </p>
+          </a>
+          <a href="" className={styles.card}>
+            <h3>Mobile Development: Project &rarr;</h3>
+            <p>1</p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h3>Project 2 &rarr;</h3>
+            <p>project!</p>
           </a>
 
           <a
