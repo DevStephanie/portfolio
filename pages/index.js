@@ -34,9 +34,10 @@ export default function Home() {
             Gameplay design and development. 
 
             Gaming: 
-            PC and PS% console gamer! My favorite games are pixelated and short story bases. 
+            PC and PS5 console gamer! My favorite games are pixelated and short story bases. 
 
-            During my funemployment time, I really learned that 
+            During my funemployment time, I really had time to explore different interests and industries 
+            that mixed art, coding, and product development. 
             </break>
           </p>
         </h3>
