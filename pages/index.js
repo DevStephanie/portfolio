@@ -1,21 +1,21 @@
 import Head from 'next/head';
+import Navbar from '../pages/Navbar'
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
+    
     <div className={styles.container}>
       <Head>
         <title>Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        
       </Head>
+    <Navbar />
 
       <main>
         <h1 className={styles.title}>
        Welcome to <i>The Coding Life of Stephanie ...</i>
-        </h1>
-
-        <img className={styles.portfolioImage}
-         src='.' alt="hero-banner-image" />
+        </h1>        
 
         <h3 className={styles.title.aboutme}> 
           <p className={styles.description.aboutme}>
@@ -42,9 +42,6 @@ export default function Home() {
           </p>
         </h3>
 
-        <p className={styles.description.aboutme}>   
-        </p>
-
         <div className={styles.grid}>
           <a href="" className={styles.card}>
             <h3>Mobile Development: Project &rarr;</h3>
@@ -57,7 +54,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href=""
             className={styles.card}
           >
             <h3> Project 3 &rarr;</h3>
@@ -65,7 +62,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
           >
             <h3>Project 4 &rarr;</h3>
@@ -84,7 +81,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href=""
             className={styles.card}
           >
             <h3> Project 3 &rarr;</h3>
@@ -92,7 +89,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
           >
             <h3>Project 4 &rarr;</h3>
@@ -111,7 +108,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href=""
             className={styles.card}
           >
             <h3> Project 3 &rarr;</h3>
@@ -119,7 +116,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
           >
             <h3>Project 4 &rarr;</h3>
@@ -162,7 +159,7 @@ export default function Home() {
           color: inherit;
         }
         code {
-          background:rgb(239, 239, 239);
+          background:rgb(197, 247, 214);
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
