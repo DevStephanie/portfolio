@@ -28,10 +28,11 @@ export default function Home() {
             I converted SQL code samples into Python Machine learning code samples for the montly 2k users. 
 
             I have a traditional background in Physical Sciences from University of Illinois at Urbana Champaign, studying environemtnal sciences, transportation and Python developement. 
-
+          <break> 
             Personal Interests: 
             Architectural design, Product management, develop & strategy, Digital art, Graphoc Design. 
             Gameplay design and development. 
+          </break>
 
             Gaming: 
             PC and PS5 console gamer! My favorite games are pixelated and short story bases. 
@@ -75,60 +76,12 @@ export default function Home() {
             <p>1</p>
           </a>
 
-          <a href="" className={styles.card}>
-            <h3>Project 2 &rarr;</h3>
-            <p>project!</p>
-          </a>
 
-          <a
-            href=""
-            className={styles.card}
-          >
-            <h3> Project 3 &rarr;</h3>
-            <p>Project details go here </p>
-          </a>
-
-          <a
-            href=""
-            className={styles.card}
-          >
-            <h3>Project 4 &rarr;</h3>
-            <p>
-              Project details here
-            </p>
-          </a>
-          <a href="" className={styles.card}>
-            <h3>Mobile Development: Project &rarr;</h3>
-            <p>1</p>
-          </a>
-
-          <a href="" className={styles.card}>
-            <h3>Project 2 &rarr;</h3>
-            <p>project!</p>
-          </a>
-
-          <a
-            href=""
-            className={styles.card}
-          >
-            <h3> Project 3 &rarr;</h3>
-            <p>Project details go here </p>
-          </a>
-
-          <a
-            href=""
-            className={styles.card}
-          >
-            <h3>Project 4 &rarr;</h3>
-            <p>
-              Project details here
-            </p>
-          </a>
         </div>
       </main>
 
       <footer>
-        <p>Designed and Built by DevStephanie  2025</p>
+        <p> Designed and Built by DevStephanie 2025</p>
       </footer>
 
       <style jsx>{`
@@ -159,7 +112,7 @@ export default function Home() {
           color: inherit;
         }
         code {
-          background:rgb(197, 247, 214);
+          background:rgb(71, 28, 92);
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
